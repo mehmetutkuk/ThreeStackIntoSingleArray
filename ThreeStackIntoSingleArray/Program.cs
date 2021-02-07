@@ -13,8 +13,10 @@ namespace ThreeStackIntoSingleArray
             public int n, k;
             public int free; 
 
-            public Stack(int k, int n)
+            public Stack(int k1, int n1)
             {
+                k = k1;
+                n = n1;
                 array = new int[n];
                 top = new int[k];
                 next = new int[n];
